@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline';">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+
+    <!-- SEO -->
+    <meta name="description" content="Guide Retro Memphis 80s pour webdesigners et developpeurs. Fonts pop, palettes neon, UI assets en CSS, animations kitsch, motifs geometriques et section inspiration pour creer des interfaces expressives, colorees et inspirees du mouvement Memphis Milano.">
+    <meta name="keywords" content="retro 80s, memphis 80s, memphis milano, 80s ui, 80s css, retro design system, neon ui, pop ui">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Lea Buonomo">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Retro Memphis 80s Design Guide",
+        "description": "Guide Retro Memphis 80s pour webdesigners et developpeurs. Fonts pop, palettes neon, UI assets en CSS, animations kitsch, motifs geometriques et section inspiration pour creer des interfaces expressives, colorees et inspirees du mouvement Memphis Milano.",
+        "url": ""
+    }
+    </script>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Retro Memphis 80s Design Guide">
+    <meta property="og:description" content="Ressource complete pour webdesigners et developpeurs. Typographies, palettes, UI et principes du style Retro Memphis 80s.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="../assets/preview-retro80s.jpg">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/webp" href="../assets/apple-touch-icon.webp">
+
+    <!-- Preconnexion Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&family=Monoton&family=Syncopate:wght@400;700&family=Kanit:wght@100..900&family=Audiowide&family=Bagel+Fat+One&family=Climate+Crisis:YEAR@1979&family=Gugi&family=Zen+Dots&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../retro/retroVariables.css">
+    <link rel="stylesheet" href="../retro/retro.css">
+    <title>Retro Memphis 80s UI Guide et outils CSS</title>
+</head>
+<body>
+    <a href="#main" class="skip-link">Aller au contenu</a>
+
+    <div id="top" class="site-container retro-container">
+        <nav class="nav" role="navigation" aria-label="Navigation principale">
+            <div class="return-retro">
+                <a class="retro-home" href="#top" aria-label="Retour à l’accueil">Top</a>
+            </div>
+            <ul>
+                <li class="nav-li-retro"><a href="../index.html" rel="noopener noreferrer">Neo-Brutalism</a></li>
+                <li class="nav-li-retro"><a href="../brutalism/brutalism.html" rel="noopener noreferrer">Brutalism</a></li>
+                <li class="nav-li-retro"><a href="../minimalism/minimalism.html" rel="noopener noreferrer">Minimalism</a></li>
+                <li class="nav-li-retro"><a href="../swissStyle/swissStyle.html" rel="noopener noreferrer">Swiss Style</a></li>
+                <li class="nav-li-retro stabilo"><a href="../retro/retro.html" rel="noopener noreferrer" aria-current="page">Retro 80s</a></li>
+                <li class="nav-li-retro"><a href="../y2k/y2k.html" rel="noopener noreferrer">Y2K</a></li>
+            </ul>
+        </nav>
+
+        <main class="main" id="main" role="main">
+            <!-- HEADER -->
+            <header class="header" id="content">
+                <h1 class="header-title">Retro 80s Post-Modern</h1>
+                <p class="header-description">Un style anti‑minimaliste, pop, rétro‑futuriste, inspiré des jeux d’arcade, des génériques TV 80s, du design kitsch.</p>
+                <p class="header-description">Apparu dans les années 1980 avec le mouvement Memphis Milano.</p>
+                <p class="header-description">Couleurs néon et pastel saturé, formes géométriques irrégulières, compositions chaotiques et anti‑grille, exagérée et répétitif.</p>
+            </header>
+
+            <!-- FONTS -->
+            <section class="section-fonts">
+                <h2 class="section-title-retro stabilo-title">Fonts</h2>
+                <div class="grid-font-retro">
+                    <!-- x3 cols -->
+                    <div class="setOne">
+                        <ul>
+                            <li class="setOne-li bungee">1. Bungee</li>
+                            <li class="setOne-li bungee-shade">2. Bungee Shade</li>
+                            <li class="setOne-li climate">3. Climate Crisis</li>
+                        </ul>
+                    </div>
+
+                    <div class="setTwo">
+                        <ul>
+                            <li class="setTwo-li monoton">1. Monoton</li>
+                            <li class="setTwo-li audiowide">2. AudioWide</li>
+                            <li class="setTwo-li gugi">3. Gugi</li>
+                        </ul>
+                    </div>
+
+                    <div class="setThree">
+                        <ul>
+                            <li class="setThree-li syncopate">1. Syncopate</li>
+                            <li class="setThree-li kanit">2. Kanit</li>
+                            <li class="setThree-li bagel">3. Bagel Fat One</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PALETTES -->
+            <section class="section-palettes">
+                <h2 class="section-title-retro stabilo-title">Palettes</h2>
+
+                <div class="grid-palettes grid-palettes-bis">
+                    <div class="color-FF00A8 color-div">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#FF00A8</h3>
+                    </div>
+
+                    <div class="color-00E5FF color-div">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#00E5FF</h3>
+                    </div>
+
+                    <div class="color-FFD600 color-div">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#FFD600</h3>
+                    </div>
+
+                    <div class="color-FF6B00 color-div">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#FF6B00</h3>
+                    </div>
+
+                    <div class="color-7C4DFF color-div">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#7C4DFF</h3>
+                    </div>
+
+                    <div class="color-00FF85 color-div">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#00FF85</h3>
+                    </div>
+                    <!-- Neutral -->
+                                        
+                    <div class="color-151515 color-div">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#151515</h3>
+                    </div>
+
+                    <div class="color-000000 color-div">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#000000</h3>
+                    </div>
+
+                    <div class="color-FFFFFF color-div">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#FFFFFF</h3>
+                    </div>
+                </div>
+
+                <div class="grid-palettes">
+                    <div class="color-FFB3C6 color-div box-color">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#FFB3C6</h3>
+                    </div>                    
+                  
+                    <div class="color-A0E7FF color-div">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#A0E7FF</h3>
+                    </div>
+
+                    <div class="color-C3F584 color-div">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#C3F584</h3>
+                    </div>
+
+                    <div class="color-FFF5A5 color-div box-color">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#FFF5A5</h3>
+                    </div>  
+
+                    <div class="color-FF3F3F color-div">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#FF3F3F</h3>
+                    </div>
+
+                    <div class="color-00A8F3 color-div">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#00A8F3</h3>
+                    </div>
+
+                    <div class="color-FF8AE2 color-div">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#FF8AE2</h3>
+                    </div>
+
+                </div>
+            </section>
+            
+            <!-- UI ASSETS -->
+            <section class="section-UI">
+                <h2 class="section-title-retro stabilo-title">UI Assets</h2>
+                <!-- classic -->
+                <div class="container-code">
+                    <h3 class="manrope">Classic Background</h3>
+                    <div class="wall-paper wall">Background</div>
+                    <pre class="code-ui">background-color: #000000;
+background-image:
+    linear-gradient
+    (90deg, rgba(255,255,255,0.15) 
+    1px, transparent 1px),
+    linear-gradient
+    (rgba(255,255,255,0.15) 
+    1px, transparent 1px);
+background-size: 40px 40px;</pre>
+                </div>
+
+                <!-- Title -->
+                <div class="container-code">
+                    <h3 class="manrope">Principal Title</h3>
+                    <div class="wall-punch wall">Title</div>
+                    <pre class="code-ui">font-family: 'Bungee Shade', sans-serif;
+font-size: clamp(4rem, 12vw, 14rem);
+text-transform: uppercase;
+line-height: 0.8;
+color: #FF00A8;
+text-shadow:
+6px 6px 0 #00E5FF,
+12px 12px 0 #FFD600;
+letter-spacing: 0.02em;
+margin: 0;
+padding: 2vh 0;</pre>
+                </div>
+
+                <!-- Neon -->
+                <div class="container-code">
+                    <h3 class="manrope">Neon Button</h3>
+                    <div class="wall-warning wall">Hover me</div>
+                    <pre class="code-ui">background: #FF00A8;
+color: #FFFFFF;
+padding: 1.2vh 3vh;
+font-family: 'Bungee', sans-serif;
+font-size: 2.4vh;
+border: none;
+cursor: pointer;
+box-shadow: 6px 6px 0 #00E5FF;
+transition: 0.15s ease;
+
+:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 10px 10px 0 #FFD600;
+}</pre>
+                </div>
+
+                <!-- Zigzag -->
+                <div class="container-code">
+                    <h3 class="manrope">Zig-Zag</h3>
+                    <div class="wall-cabinet wall">Background</div>
+                    <pre class="code-ui">width: 100%;
+height: 12px;
+background: repeating-linear-gradient(
+-45deg,
+#FF00A8 0 10px,
+#00E5FF 10px 20px
+);
+
+:hover {
+    background: repeating-linear-gradient(
+    45deg,
+    #7C4DFF 0 10px,
+    #00FF85 10px 20px
+);
+}</pre>
+                </div>
+
+                <!-- Pastel -->
+                <div class="container-code">
+                    <h3 class="manrope">Pastel Memphis</h3>
+                    <div class="wall-collapse wall">Card</div>
+                    <pre class="code-ui">background: #FFF5A5;
+padding: 4vh;
+border: 4px solid #151515;
+box-shadow:
+8px 8px 0 #FF00A8,
+16px 16px 0 #00E5FF,
+24px 24px 0 #FFD600;
+font-family: 'Kanit', sans-serif;
+animation: colorBlink 360ms steps(8, start) infinite
+
+@keyframes colorBlink {
+    0% {
+        color: #00E5FF;
+    }
+    50% {
+        color: #FF00A8;
+    }
+    100% {
+        color: #FFD600;
+    }
+}</pre>
+                </div>
+
+                <!-- Blob -->
+                <div class="container-code">
+                    <h3 class="manrope">Blob</h3>
+                    <div class="wall-gosth wall"></div>
+                    <pre class="code-ui"> width: 180px;
+height: 140px;
+background: #00FF85;
+border-radius: 60% 40% 70% 30% / 40% 60% 30% 70%;
+box-shadow: 8px 8px 0 #FF6B00;</pre>
+                </div>
+
+                <!-- pattern -->
+                <div class="container-code">
+                    <h3 class="manrope">Pastel Pattern</h3>
+                    <div class="wall-pattern wall"></div>
+                    <pre class="code-ui">background:
+radial-gradient(#FF00A8 2px, transparent 2px) 0 0,
+radial-gradient(#FF00A8 2px, transparent 2px) 10px 10px;
+background-size: 20px 20px;
+background-color: #A0E7FF;
+padding: 4vh;</pre>
+                </div>
+
+                <!-- Titre simple -->
+                <div class="container-code">
+                    <h3 class="manrope">Simple Title</h3>
+                    <div class="wall-title wall">Titre</div>
+                    <pre class="code-ui">font-family: 'Bungee Shade', sans-serif;
+font-size: clamp(3rem, 8vw, 10rem);
+color: #FF00A8;
+text-transform: uppercase;
+line-height: 0.8;</pre>
+                </div>          
+            </section>
+
+            <!-- ANIMATION ASSETS -->
+            <section class="section-animation">
+                <h2 class="section-title-retro stabilo-title">Animation Assets</h2>
+                <!-- Text Border -->
+                <div class="container-code">
+                    <h3>Neon Hover Text</h3>
+                    <div class="wall-translate wall">Hover me</div>
+                    <pre class="code-ui">font-family: 'Audiowide', sans-serif;
+font-size: 3rem;
+color: #FFFFFF;
+cursor: pointer;
+transition: 0.1s ease;</pre>
+                </div>
+
+                <!-- Neon pulse -->
+                <div class="container-code">
+                    <h3 class="manrope">Neon Pulse</h3>
+                    <div class="wall-cursor wall">Neon Texte</div>
+                    <pre class="code-ui">animation: neonPulse 1s infinite alternate;
+@keyframes neonPulse {
+  0% {
+    text-shadow:
+      0 0 6px #FF00A8,
+      0 0 12px #FF00A8,
+      0 0 18px #00E5FF;
+  }
+  100% {
+    text-shadow:
+      0 0 12px #FFD600,
+      0 0 24px #FF00A8,
+      0 0 36px #00E5FF;
+  }
+}</pre>
+                </div>
+
+                <!-- Colored Text -->
+                <div class="container-code">
+                    <h3 class="manrope">Colored Text</h3>
+                    <div class="wall-roll wall">
+                        <span>C</span>
+                        <span>o</span>
+                        <span>l</span>
+                        <span>o</span>
+                        <span>r</span>
+                        <span>e</span>
+                        <span>d</span>
+                    </div>
+                    <pre class="code-ui">font-family: 'Inter', sans-serif;
+font-weight: 700;
+text-transform: uppercase;
+line-height: 0.9;
+cursor: pointer;
+transition: all 200ms ease;
+
+span:nth-of-type(1) {
+    color: #FF00A8;
+}
+span:nth-of-type(2) {
+    color: #00E5FF;
+}
+span:nth-of-type(3) {
+    color: #FFD600;
+}
+span:nth-of-type(4) {
+    color: #FF6B00;
+}
+span:nth-of-type(5) {
+    color: #7C4DFF;
+}
+span:nth-of-type(6) {
+    color: #00FF85;
+}
+span:nth-of-type(7) {
+    color: #FF3F3F;
+}
+
+:hover span:nth-of-type(1) {
+    color: #FFD600;
+}
+:hover span:nth-of-type(2) {
+    color: #7C4DFF;
+}
+:hover span:nth-of-type(3) {
+    color: #FF3F3F;
+}
+:hover span:nth-of-type(4) {
+    color: #FF00A8;
+}
+:hover span:nth-of-type(5) {
+    color: #00FF85;
+}
+:hover span:nth-of-type(6) {
+    color: #FF6B00;
+}
+:hover span:nth-of-type(7) {
+    color: #00E5FF;
+}</pre>
+                </div>
+
+                <!-- Wiggle -->
+                <div class="container-code">
+                    <h3 class="manrope">Wiggle</h3>
+                    <div class="wall-slide wall">Hover me</div>
+                    <pre class="code-ui">display: inline-block;
+:hover {
+    animation: wiggle80s 0.25s infinite;
+}
+
+@keyframes wiggle80s {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(2deg); }
+  50% { transform: rotate(-2deg); }
+  75% { transform: rotate(1deg); }
+  100% { transform: rotate(0deg); }
+}</pre>
+                </div>
+               
+                <!-- Up 3D -->
+                <div class="container-code">
+                    <h3 class="manrope">Hover 3D</h3>
+                    <div class="wall-3d wall">Hover me</div>
+                    <pre class="code-ui">background-color: #FFF;
+font-family: "Kanit", sans-serif;
+
+animation:
+  shadow-pop 
+  0.3s 
+  cubic-bezier(0.470, 0.000, 0.745, 0.715) 
+  both;
+@keyframes shadow-pop {
+    0% {
+        color: #FF00A8;
+        box-shadow: 0 0 #00FF85, 0 0 #00FF85,
+        0 0 #00FF85, 0 0 #00FF85;
+        transform: translateX(0) translateY(0);
+    }
+    50% {
+        color: #7C4DFF;
+        box-shadow: 
+            1px -1px #7C4DFF, 
+            2px -2px #7C4DFF,
+            3px -3px #7C4DFF, 4px -4px #7C4DFF;
+        transform: 
+            translateX(-4px) translateY(4px);
+    }
+    100% {
+        color: #00FF85;
+        box-shadow: 
+            1px -1px #FF00A8, 2px -2px #FF00A8,
+            3px -3px #FF00A8, 4px -4px #FF00A8, 
+            5px -5px #FF00A8, 6px -6px #FF00A8, 
+            7px -7px #FF00A8, 8px -8px #FF00A8;
+        transform: 
+            translateX(-8px) translateY(8px);
+    }
+}</pre>
+                </div>
+
+                <!-- Pop -->
+                <div class="container-code">
+                    <h3 class="manrope">Memphis Pop</h3>
+                    <div class="wall-pop wall">Hover me</div>
+                    <pre class="code-ui">:hover {
+  animation: pop80s 0.35s cubic-bezier(.26,1.52,.46,.92);
+}
+@keyframes pop80s {
+  0% { transform: scale(0.4); opacity: 0; }
+  70% { transform: scale(1.15); opacity: 1; }
+  100% { transform: scale(1); }
+}</pre>
+                </div>
+
+                <!-- scan -->
+                <div class="container-code">
+                    <h3 class="manrope">Neon Scan</h3>
+                    <div class="wall-neon wall">Scan</div>
+                    <pre class="code-ui">position: relative;
+overflow: hidden;
+
+::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: 
+   linear-gradient(90deg, transparent, #FF00A8, transparent);
+  animation: slideNeon 1.4s infinite;
+}
+
+@keyframes slideNeon {
+  0% { left: -100%; }
+  100% { left: 100%; }
+}</pre>
+                </div>
+                
+            </section>
+
+            <!-- CREATIF ASSETS -->
+            <section class="section-animation">
+                <h2 class="section-title-retro stabilo-title">Créatif Assets</h2>
+                <!-- Waves -->
+                <div class="container-code">
+                    <h3>Waves</h3>
+                    <div class="retro-grid wall"></div>
+                    <pre class="code-ui">width: 200px;
+height: 20px;
+background: url("data:image/svg+xml;utf8,
+&lt;svg width='200' height='20' xmlns='http://www.w3.org/2000/svg'>
+&lt;path d='M0 10 L30 0 L60 20 L90 0 L120 20 L150 0 L180 10'
+        stroke='%23FF6B00' stroke-width='6' fill='transparent'/>
+&lt;/svg>");
+filter: drop-shadow(6px 6px 0 #00E5FF);</pre>
+                </div>
+
+                <!-- Flicker -->
+                <div class="container-code">
+                    <h3>Flicker</h3>
+                    <div class="retro-flicker wall">NEON</div>
+                    <pre class="code-ui">animation: vhsFlicker 0.08s infinite alternate;
+
+@keyframes vhsFlicker {
+  0% { opacity: 0.92; transform: skewX(0deg); }
+  100% { opacity: 1; transform: skewX(1deg); }
+}</pre>
+                </div>
+                <!-- Number -->
+                <div class="container-code">
+                    <h3>Massive Number</h3>
+                    <div class="retro-number wall">33</div>
+                    <pre class="code-ui">font-family: 'Bungee', sans-serif;
+font-weight: 900;
+font-size: clamp(6rem, 20vw, 25rem);
+color: #FFF5A5;
+text-shadow: 5px 5px 0 #FFD600, 10px 10px 0 #FFD600;
+line-height: 0.8;
+text-transform: uppercase;</pre>
+                </div>
+            </section>
+
+            <!-- INSPIRATIONS -->
+            <section class="section-inspirations">
+                <h2 class="section-title-retro stabilo-title">Inspirations</h2>
+                <ul class="grid-inspirations">
+                    <!-- une ligne -->
+                    <li class="square-inspi">
+                        <img src="../assets/retro80_inspi/retro1.webp" loading="lazy" alt="Image forme géométriques typique années 80">
+                    </li>
+
+                    <li class="square-inspi">
+                        <img src="../assets/retro80_inspi/retro2.webp" loading="lazy" alt="Image pattern géométriques typique années 80">
+                    </li>
+
+                    <li class="square-inspi">
+                        <img src="../assets/retro80_inspi/retro3.webp" loading="lazy" alt="Image de logo années 80 pop">
+                    </li>
+
+                    <li class="square-inspi">
+                        <img src="../assets/retro80_inspi/retro4.webp" loading="lazy" alt="Image du logo de Vice City">
+                    </li>
+
+                    <li class="square-inspi">
+                        <img src="../assets/retro80_inspi/retro5.webp" loading="lazy" alt="Image police d'écriture à grain">
+                    </li>
+
+                    <li class="square-inspi">
+                        <img src="../assets/retro80_inspi/retro6.webp" loading="lazy" alt="Image template d'animation After Effect de titre TV">
+                    </li>
+
+                    <li class="square-inspi">
+                        <img src="../assets/retro80_inspi/retro8.webp" loading="lazy" alt="Image webdesign retro 1970 à 1980">
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer class="footer" role="contentinfo">
+            <p class="footer-text">&copy; <script>document.write(new Date().getFullYear())</script> Léa Buonomo. Tous droits réservés.</p>
+        </footer>
+    </div>
+</body>
+</html>

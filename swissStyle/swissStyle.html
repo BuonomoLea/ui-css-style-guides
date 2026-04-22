@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline';"> 
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+
+    <!-- SEO -->
+    <meta name="description" content="Guide Swiss Style pour webdesigners et developpeurs. Fonts suisses, palettes contrastees, UI assets en CSS, animations geometriques, motifs reguliers et section inspiration pour creer des interfaces structurees, lisibles et rigoureuses dans l'esprit du style typographique suisse.">
+    <meta name="keywords" content="swiss style, swiss design, swiss style css, swiss ui, swiss grid, international typographic style, swiss design system">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Lea Buonomo">
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Swiss Style Design Guide",
+        "description": "Guide Swiss Style pour webdesigners et developpeurs. Fonts suisses, palettes contrastees, UI assets en CSS, animations geometriques, motifs reguliers et section inspiration pour creer des interfaces structurees, lisibles et rigoureuses dans l'esprit du style typographique suisse.",
+        "url": ""
+    }
+    </script>
+    <!-- Open Graph -->
+    <meta property="og:title" content="Swiss Style Design Guide">
+    <meta property="og:description" content="Ressource complete pour webdesigners et developpeurs. Typographies, palettes, UI et principes du style Swiss Style.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="../assets/preview-swissstyle.jpg">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/webp" href="../assets/apple-touch-icon.webp">
+
+    <!-- Preconnexion Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Alfarn (Typekit) -->
+    <link rel="stylesheet" href="https://use.typekit.net/ybt7llq.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Archivo+Narrow:wght@400..700&family=IBM+Plex+Sans:wght@100..700&family=Work+Sans:wght@100..900&family=Barlow+Condensed:wght@100..900&family=Manrope:wght@200..800&family=Teko:wght@300..700&family=DM+Sans:wght@100..1000&display=swap" rel="stylesheet">
+    <!-- Barlow Condensed -->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../swissStyle/swissVariables.css">
+    <link rel="stylesheet" href="../swissStyle/swissStyle.css">
+    <title>Swiss Style UI Guide et outils CSS</title>
+</head>
+<body>
+    <a href="#main" class="skip-link">Aller au contenu</a>
+
+    <div id="top" class="site-container swiss-container">
+        <nav class="nav" role="navigation" aria-label="Navigation principale">
+            <div class="return-swiss">
+                <a class="text-shadow" href="#top" aria-label="Retour à l’accueil">
+                    <div class="inser-abstract">
+                        <img src="../assets/cursor/boop7.png" alt="abstract" aria-hidden="true">
+                    </div>Top
+                </a>
+            </div>
+            <ul>
+                <li class="nav-li-swiss"><a href="../index.html" rel="noopener noreferrer">Neo-Brutalism</a></li>
+                <li class="nav-li-swiss"><a href="../brutalism/brutalism.html" rel="noopener noreferrer">Brutalism</a></li>
+                <li class="nav-li-swiss"><a href="../minimalism/minimalism.html" rel="noopener noreferrer">Minimalism</a></li>
+                <li class="nav-li-swiss stabilo"><a href="../swissStyle/swissStyle.html" rel="noopener noreferrer" aria-current="page">Swiss Style</a></li>
+                <li class="nav-li-swiss"><a href="../retro/retro.html" rel="noopener noreferrer">Retro 80s</a></li>
+                <li class="nav-li-swiss"><a href="../y2k/y2k.html" rel="noopener noreferrer">Y2K</a></li>
+            </ul>
+        </nav>
+
+        <main class="main" id="main" role="main">
+            <header class="header" id="content">
+                <h1 class="header-title">Swiss Style</h1>
+                <p class="header-description">Un sous genre du minimalism.</p>
+                <p class="header-description">Inspiré des mouvements modernistes des années 1910 et 1920 et de l'âge d'or de la typographie Suisse.</p>
+                <p class="header-description">Représente le style des affiches de 1950, grand contraste des couleurs, texte mis en avant, asymétrique, Bauhaus.</p>
+            </header>
+
+            <div class="trait" aria-hidden="true"></div>
+            <div class="traitTwo" aria-hidden="true"></div>
+            <!-- FONTS -->
+            <section class="section-fonts">
+                <h2 class="section-title-swiss stabilo-title">Fonts</h2>
+                <div class="grid-font-swiss">
+                    <!-- x3 cols -->
+                    <div class="setOne">
+                        <ul>
+                            <li class="setOne-li helvetica">1. Helvetica Bold</li>
+                            <li class="setOne-li inter">2. Inter</li>
+                            <li class="setOne-li alfarn">3. Alfarn</li>
+                        </ul>
+                    </div>
+
+                    <div class="setTwo">
+                        <ul>
+                            <li class="setTwo-li ibm-plex-sans">4. IBM Plex Sans</li>
+                            <li class="setTwo-li work-sans">5. Work Sans</li>
+                            <li class="setTwo-li archivo-narrow">6. Archivo Narrow Bold</li>
+                        </ul>
+                    </div>
+
+                    <div class="setThree">
+                        <ul>
+                            <li class="setThree-li barlow-condensed">7. Barlow Condensed Medium</li>
+                            <li class="setThree-li teko">8. Teko</li>
+                            <li class="setThree-li dmSans">9. DM Sans Upper</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PALETTES -->
+            <section class="section-palettes">
+                <h2 class="section-title-swiss stabilo-title">Palettes</h2>
+
+                <div class="grid-palettes grid-palettes-bis">
+                    <div class="color-FF0000 color-div">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#FF0000</h3>
+                    </div>
+
+                    <div class="color-0057FF color-div">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#0057FF</h3>
+                    </div>
+
+                    <div class="color-F8DE22 color-div">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#F8DE22</h3>
+                    </div>
+
+                    <div class="color-00A94F color-div">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#00A94F</h3>
+                    </div>
+
+                    <div class="color-FF6B00 color-div">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#FF6B00</h3>
+                    </div>
+
+                    <div class="color-CC0000 color-div">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#CC0000</h3>
+                    </div>
+
+                    <div class="color-0033AA color-div box-color">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#0033AA</h3>
+                    </div>                    
+                  
+                    <div class="color-009BDF color-div">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#009BDF</h3>
+                    </div>
+                </div>
+
+                <div class="grid-palettes">
+                    <div class="color-E5E5E5 color-div">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#E5E5E5</h3>
+                    </div>
+
+                    <div class="color-CFCFCF color-div box-color">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#CFCFCF</h3>
+                    </div>  
+
+                    <div class="color-A8A8A8 color-div">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#A8A8A8</h3>
+                    </div>
+
+                    <div class="color-DD6464 color-div">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#DD6464</h3>
+                    </div>
+
+                    <div class="color-DE3D83 color-div">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#DE3D83</h3>
+                    </div>
+
+                    <div class="color-151515 color-div">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#151515</h3>
+                    </div>
+
+                    <div class="color-000000 color-div">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#000000</h3>
+                    </div>
+
+                    <div class="color-FFFFFF color-div">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#FFFFFF</h3>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- UI ASSETS -->
+            <section class="section-UI">
+                <h2 class="section-title-swiss stabilo-title">UI Assets</h2>
+                <!-- classic -->
+                <div class="container-code">
+                    <h3 class="manrope">Classic Background</h3>
+                    <div class="wall-paper wall">Bouton</div>
+                    <pre class="code-ui">background: #FF6B00;
+border-radius: 12px;
+padding: 1vh 2vh;
+color: #151515;</pre>
+                </div>
+
+                <!-- neutral -->
+                <div class="container-code">
+                    <h3 class="manrope">Neutral Background</h3>
+                    <div class="wall-punch wall">Lorem ipsum dolor sit amet elit.
+                        <span>Exercitationem similique rem quas sunt</span> 
+                        quia inventore, distinctio animi.</div>
+                    <pre class="code-ui">width: 20%;
+display: flex;
+flex-direction: column;
+background: #F2EDE8;
+color: #00A94F;
+line-height: 0.75;
+font-size: 2vh;
+span  {
+    color: #FF6B00;            
+}</pre>
+                </div>
+
+                <!-- Dark -->
+                <div class="container-code">
+                    <h3 class="manrope">Berlin Border</h3>
+                    <div class="wall-warning wall">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                    <pre class="code-ui">font-family: "Teko", sans-serif;
+line-height: 0.65;
+background: #FFF;
+color: #151515;
+transform: rotate(-90deg);
+border-right: 2vh solid #F8DE22;
+border-top: 2vh solid #F8DE22;
+border-left: 2vh solid #FF0000;
+border-bottom: 2vh solid #FF0000;
+box-shadow: inset -2vh 2vh 0 #0033AA, 
+  inset 2vh -2vh 0 #00A94F;</pre>
+                </div>
+
+                <!-- Müller‑Brockmann -->
+                <div class="container-code">
+                    <h3 class="manrope">Müller‑Brockmann</h3>
+                    <div class="wall-cabinet wall">Hover me</div>
+                    <pre class="code-ui">background: #FF0000;
+color: #FFFFFF;
+padding: 6vh 4vh;
+font-family: 'Inter', sans-serif;
+font-weight: 900;
+font-size: clamp(2rem, 5vw, 8rem);
+line-height: 0.85;
+text-transform: uppercase;
+letter-spacing: -0.02em;
+transition: all 0.15s ease;
+
+:hover {
+    background: #000;
+    color: #FF0000;
+}</pre>
+                </div>
+
+                <!-- Hover Modern -->
+                <div class="container-code">
+                    <h3 class="manrope">Hover grid</h3>
+                    <div class="wall-collapse wall">Hover me</div>
+                    <div class="wall-collapse wall">Hover me</div>
+                    <pre class="code-ui">position: relative;
+cursor: pointer;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 2vh;
+padding: 4vh;
+transition: all 220ms ease;
+z-index: 2;
+
+:nth-of-type(1):before {
+    background-color: #151515;        
+}
+:nth-of-type(2):before {
+    background-color: #DE3D83;        
+}
+::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0%;
+    transition: all 220ms ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+:hover {
+    color: #FCFAF8;
+    border: none;
+}
+
+:hover::before {
+    width: 100%;
+}</pre>
+                </div>
+
+                <!-- Gosth Text -->
+                <div class="container-code">
+                    <h3 class="manrope">Gosth Text</h3>
+                    <div class="wall-gosth wall">Hover me</div>
+                    <pre class="code-ui">cursor: pointer;
+background: #F8DE22;
+color: #000000;
+padding: 3vh 4vh;
+font-family: 'Barlow Condensed', sans-serif;
+font-weight: 600;
+font-size: clamp(1.5rem, 4vw, 4rem);
+text-transform: uppercase;
+line-height: 0.9;
+transition: all 0.15s ease;
+
+:hover {
+  background: rgba(0,0,0,0.06);
+}</pre>
+                </div>
+            </section>
+
+            <!-- ANIMATION ASSETS -->
+            <section class="section-animation">
+                <h2 class="section-title-swiss stabilo-title">Animation Assets</h2>
+                <!-- Text Border -->
+                <div class="container-code">
+                    <h3>Text Rotate</h3>
+                    <div class="wall-translate wall">CLic me</div>
+                    <pre class="code-ui">padding: 1vh 0;
+width: max-content;
+height: max-content;
+line-height: 0.7;
+cursor: pointer;
+font-family: 'Work Sans', sans-serif;
+font-weight: 700;
+font-size: clamp(1rem, 3vw, 4rem);
+color: #00A94F;
+text-transform: uppercase;
+transform: rotate(-90deg);
+transform-origin: left top;
+white-space: nowrap;
+transition: all 260ms ease;
+
+:active {
+    transform: rotate(0deg);
+}</pre>
+                </div>
+                <!-- Cursor -->
+                <div class="container-code">
+                    <h3 class="manrope">Cursor</h3>
+                    <div class="wall-cursor wall">Hover me</div>
+                    <pre class="code-ui">cursor: pointer;
+font-weight: 500;
+cursor: url("data:image/svg+xml;utf8,
+&lt;svg xmlns='http://www.w3.org/2000/svg'
+    width='14' height='14'&gt;
+    &lt;rect width='14' height='14' fill='blue'/&gt;
+&lt;/svg&gt;") 0 0, auto;</pre>
+                </div>
+                <!-- Colored Text -->
+                <div class="container-code">
+                    <h3 class="manrope">Colored Text</h3>
+                    <div class="wall-roll wall">
+                        <span>C</span>
+                        <span>o</span>
+                        <span>l</span>
+                        <span>o</span>
+                        <span>r</span>
+                        <span>e</span>
+                        <span>d</span>
+                    </div>
+                    <pre class="code-ui">font-family: 'Inter', sans-serif;
+font-weight: 700;
+text-transform: uppercase;
+line-height: 0.9;
+cursor: pointer;
+transition: all 200ms ease;
+
+span:nth-of-type(1) {
+    color: #0057FF;
+}
+span:nth-of-type(2) {
+    color: #FF0000;
+}
+span:nth-of-type(3) {
+    color: #00A94F;
+}
+span:nth-of-type(4) {
+    color: #F8DE22;
+}
+span:nth-of-type(5) {
+    color: #FF6B00;
+}
+span:nth-of-type(6) {
+    color: #009BDF;
+}
+span:nth-of-type(7) {
+    color: #DE3D83;
+}
+
+:hover span:nth-of-type(1) {
+    color: #DE3D83;
+}
+:hover span:nth-of-type(2) {
+    color: #009BDF;
+}
+:hover span:nth-of-type(3) {
+    color: #FF6B00;
+}
+:hover span:nth-of-type(4) {
+    color: #00A94F;
+}
+:hover span:nth-of-type(5) {
+    color: #FF0000;
+}
+:hover span:nth-of-type(6) {
+    color: #F8DE22;
+}
+:hover span:nth-of-type(7) {
+    color: #0057FF;
+}</pre>
+                </div>
+                <!-- Hover Color -->
+                <div class="container-code">
+                    <h3 class="manrope">Hover Color</h3>
+                    <div class="wall-slide wall">Hover <span> me</span></div>
+                    <pre class="code-ui">position: relative;
+display: flex;
+align-items: center;
+gap: 2vh;
+cursor: pointer;
+transition: all 100ms ease;
+
+::before {
+  content: "";
+  width: 12vh;
+  height: 1.2vh;
+  background: #0057FF;
+}
+span {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.2rem, 3vw, 3rem);
+  text-transform: uppercase;
+  color: #151515;
+}
+:hover span {
+  color: #0057FF;
+}</pre>
+                </div>
+                <!-- Text animé -->
+                <div class="container-code">
+                    <h3 class="manrope">Text-entrance</h3>                    
+                    <section class="animate animate-section">
+                        <div class="animate animate1">Hover me,</div>
+                        <div class="animate animate2">Texte minimaliste animé.</div>
+                        <div class="animate animate3">A employer en entrée sur le site ou à l'ouverture d'une card ou modale</div>
+                    </section>
+                    <pre class="code-ui">.animate {
+    font-family: "Montserrat", sans-serif;
+    height: auto;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.animate-section:hover .animate1 {
+    animation: fadeInUp 0.6s both;
+    animation-delay: 0.2s;
+}
+.animate-section:hover .animate2 {
+    animation: fadeInUp 0.6s both;
+    animation-delay: 0.3s;
+}
+
+.animate-section:hover .animate3 {
+    animation: fadeInUp 0.6s both;
+    animation-delay: 0.4s;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}</pre>
+                </div>
+                <!-- Up 3D -->
+                <div class="container-code">
+                    <h3 class="manrope">Hover 3D</h3>
+                    <div class="wall-3d wall">Hover me</div>
+                    <pre class="code-ui">font-family: "DM Sans Upper", sans-serif;
+
+animation:
+  shadow-pop
+  0.3s
+  cubic-bezier(0.470, 0.000, 0.745, 0.715)
+  both;
+@keyframes shadow-pop {
+  0% {
+        box-shadow: 0 0 #F8DE22, 0 0 #F8DE22,
+        0 0 #F8DE22, 0 0 #F8DE22;
+        transform: translateX(0) translateY(0);
+    }
+    50% {
+        box-shadow: 1px -1px #00A94F, 2px -2px #00A94F,
+        3px -3px #00A94F, 4px -4px #00A94F;
+        transform: translateX(-4px) translateY(4px);
+    }
+    100% {
+        box-shadow: 1px -1px #009BDF, 2px -2px #009BDF,
+        3px -3px #009BDF, 4px -4px #009BDF, 5px -5px #009BDF,
+        6px -6px #009BDF, 7px -7px #009BDF, 8px -8px #009BDF;
+        transform: translateX(-8px) translateY(8px);
+    }
+}</pre>
+                </div>
+            </section>
+
+            <!-- CREATIF ASSETS -->
+            <section class="section-animation">
+                <h2 class="section-title-swiss stabilo-title">Créatif Assets</h2>
+                <!-- Robot text  -->
+                <div class="container-code">
+                    <h3>Robot Text Hover</h3>
+                    <div class="robot-crea wall">
+                        <span>R</span><span>O</span><span>B</span><span>O</span><span>T</span> 
+                    </div>
+                    <pre class="code-ui">opacity: 0;
+transition: transform 0.05s steps(3, end);
+
+span {
+    caret-color: #000;
+    caret-shape: block;
+    opacity: 1;
+}
+:hover span {
+    opacity: 0;
+}
+span:nth-of-type(1) {
+    transition-delay: 0ms;
+}
+.robot-crea span:nth-of-type(2) {
+    transition-delay: 100ms;
+}
+.robot-crea span:nth-of-type(3) {
+    transition-delay: 200ms;
+}
+.robot-crea span:nth-of-type(4) {
+    transition-delay: 300ms;
+}
+.robot-crea span:nth-of-type(5) {
+    transition-delay: 400ms;
+}</pre>
+                </div>
+                <!-- swiss grid -->
+                <div class="container-code">
+                    <h3>Swiss Grid</h3>
+                    <div class="swiss-grid wall">
+                        <span>G</span><span>R</span><span>I</span><span>L</span><span>L</span><span>E</span>
+                        <span>S</span><span>U</span><span>I</span><span>S</span><span>S</span><span>E</span>
+                    </div>
+                    <pre class="code-ui">display: grid;
+grid-template-columns: repeat(12, 1fr);
+gap: 2vh;
+padding: 4vh;
+
+span {
+    background-color: #CC0000;
+}</pre>
+                </div>
+                <!-- swiss title -->
+                <div class="container-code">
+                    <h3>Swiss Title</h3>
+                    <div class="swiss-title wall">Titre</div>
+                    <pre class="code-ui">font-family: 'Inter', sans-serif;
+font-weight: 900;
+font-size: clamp(3rem, 10vw, 12rem);
+line-height: 0.85;
+text-transform: uppercase;
+letter-spacing: -0.02em;
+margin-left: 10%;
+color: #00A94F;</pre>
+                </div>
+                <!-- vertical -->
+                <div class="container-code">
+                    <h3>Vertical Title</h3>
+                    <div class="swiss-vert wall">Titre</div>
+                    <pre class="code-ui">font-family: 'Work Sans', sans-serif;
+font-weight: 700;
+font-size: clamp(2rem, 6vw, 6rem);
+text-transform: uppercase;
+transform: rotate(-90deg);
+transform-origin: left top;
+white-space: nowrap;</pre>
+                </div>
+                <!-- vertical -->
+                <div class="container-code">
+                    <h3>Cut Title</h3>
+                    <div class="swiss-cut wall">Titre</div>
+                    <pre class="code-ui">background: #FF0000;
+color: #FFFFFF;
+padding: 4vh;
+clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+font-family: 'Inter', sans-serif;
+font-weight: 900;
+text-transform: uppercase;</pre>
+                </div>
+
+                <!-- Number -->
+                <div class="container-code">
+                    <h3>Massive Number</h3>
+                    <div class="swiss-number wall">33</div>
+                    <pre class="code-ui">font-family: 'Inter', sans-serif;
+font-weight: 900;
+font-size: clamp(6rem, 20vw, 25rem);
+color: #FF0000;
+line-height: 0.8;
+text-transform: uppercase;</pre>
+                </div>
+            </section>
+
+            <!-- INSPIRATIONS -->
+            <section class="section-inspirations">
+                <h2 class="section-title-swiss stabilo-title">Inspirations</h2>
+                <ul class="grid-inspirations">
+                    <!-- une ligne -->
+                    <li class="square-inspi">
+                        <img src="../assets/swissStyle_inspi/swiss1.webp" loading="lazy" alt="Image set webdesign rouge et bleu">
+                    </li>
+
+                    <li class="square-inspi">
+                        <img src="../assets/swissStyle_inspi/swiss2.webp" loading="lazy" alt="Image webdesign rouge et bleu seul">
+                    </li>
+
+                    <li class="square-inspi">
+                        <img src="../assets/swissStyle_inspi/swiss3.webp" loading="lazy" alt="Image texte style liste de titre au cinéma">
+                    </li>
+
+                    <li class="square-inspi">
+                        <img src="../assets/swissStyle_inspi/swiss4.webp" loading="lazy" alt="Image webdesign centré texte">
+                    </li>
+
+                    <li class="square-inspi">
+                        <img src="../assets/swissStyle_inspi/swiss5.webp" loading="lazy" alt="Image affiche / poster">
+                    </li>
+
+                    <li class="square-inspi">
+                        <img src="../assets/swissStyle_inspi/swiss6.webp" loading="lazy" alt="Image couverture de livre">
+                    </li>
+
+                    <li class="square-inspi">
+                        <img src="../assets/swissStyle_inspi/swiss7.webp" loading="lazy" alt="Image affiche Bauhaus">
+                    </li>
+                    
+                    <li class="square-inspi">
+                        <img src="../assets/swissStyle_inspi/swiss8.webp" loading="lazy" alt="Image texte massif">
+                    </li>
+                    
+                    <li class="square-inspi">
+                        <img src="../assets/swissStyle_inspi/swiss9.webp" loading="lazy" alt="Image affiche / flyer">
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer class="footer" role="contentinfo">
+            <p class="footer-text">&copy; <script>document.write(new Date().getFullYear())</script> Léa Buonomo. Tous droits réservés.</p>
+        </footer>
+    </div>
+</body>
+</html>

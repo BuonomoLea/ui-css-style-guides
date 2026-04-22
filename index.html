@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline';">    
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+
+    <!-- SEO -->
+    <meta name="description" content="Guide Neo Brutalism pour webdesigners et developpeurs. Typographies, palettes, composants UI, motifs CSS et outils pour creer des interfaces massives et contrastees.">
+    <meta name="keywords" content="neo brutalism, neo brutalism css, neo brutalism ui, neo brutalism design, brutalist ui, brutalist css, design system neo brutalism">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Léa Buonomo">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Neo Brutalism UI Guide",
+        "description": "Outil Neo Brutalism pour webdesigners et developpeurs. Typographies, palettes, composants UI et motifs CSS.",
+        "applicationCategory": "DesignTool",
+        "operatingSystem": "All",
+        "url": ""
+    }
+    </script>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Neo Brutalism Guide Design">
+    <meta property="og:description" content="Ressource complete pour webdesigners et developpeurs. Typographies, palettes, UI et principes du style Neo Brutalism.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./assets/preview-neobrutalism.jpg">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/webp" href="./assets/apple-touch-icon.webp">
+
+    <!-- Préconnexion Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Inter:wght@100..900&family=Manrope:wght@200..800&family=Barlow+Condensed:wght@100..900&family=Abril+Fatface&family=IBM+Plex+Sans:wght@100..700&family=Archivo+Black&family=Work+Sans:wght@100..900&family=JetBrains+Mono:wght@100..800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./variables.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Neo Brutalism UI Guide et outils CSS</title>
+</head>
+<body>
+    <a href="#main" class="skip-link">Aller au contenu</a>
+
+    <div id="top" class="site-container neobrutalism-container">
+        <nav role="navigation" aria-label="Navigation principale">
+            <div class="return">
+                <a href="#top" aria-label="Retour à l’accueil">
+                    <div class="inser-abstract">
+                        <img src="./assets/cursor/boop6.png" alt="abstract" aria-hidden="true">
+                    </div>Top
+                </a>
+            </div>
+            <ul>
+                <li class="nav-li stabilo"><a href="./index.html" rel="noopener noreferrer" aria-current="page">Neo-Brutalism</a></li>
+                <li class="nav-li"><a href="./brutalism/brutalism.html" rel="noopener noreferrer">Brutalism</a></li>
+                <li class="nav-li"><a href="./minimalism/minimalism.html" rel="noopener noreferrer">Minimalism</a></li>
+                <li class="nav-li"><a href="./swissStyle/swissStyle.html" rel="noopener noreferrer">Swiss Style</a></li>
+                <li class="nav-li"><a href="./retro/retro.html" rel="noopener noreferrer">Retro 80s</a></li>
+                <li class="nav-li"><a href="./y2k/y2k.html" rel="noopener noreferrer">Y2K</a></li>
+            </ul>
+        </nav>
+
+        <main class="main" id="main" role="main">
+            <header class="header" id="content">
+                <h1 class="header-title">Neo-Brutalism UI Guide et outils CSS</h1>
+                <p class="header-description">Brutalisme réinterprété avec une esthétique plus pop, digitale et systémique.</p>
+                <p class="header-description">Massif, contrasté, géométrique, mais avec une intention graphique plus contrôlée et expressive.</p>
+            </header>
+            
+            <!-- FONTS -->
+            <section class="section-fonts">
+                <h2 class="section-title">Fonts</h2>
+                <div class="grid-font">
+                    <!-- x3 cols -->
+                    <div class="setOne">
+                        <ul>
+                            <li class="setOne-li space-grotesk">1. Space Grotesk</li>
+                            <li class="setOne-li inter">2. Inter</li>
+                            <li class="setOne-li manrope">3. Manrope</li>
+                        </ul>
+                    </div>
+
+                    <div class="setTwo">
+                        <ul>
+                            <li class="setTwo-li barlow-condensed">4. Barlow Condensed</li>
+                            <li class="setTwo-li abril-fatface">5. Abril Fatface</li>
+                            <li class="setTwo-li ibm-plex-sans">6. IBM Plex Sans</li>
+                        </ul>
+                    </div>
+
+                    <div class="setThree">
+                        <ul>
+                            <li class="setThree-li archivo-black">7. Archivo Black</li>
+                            <li class="setThree-li work-sans">8. Work Sans</li>
+                            <li class="setThree-li jetbrains-mono">9. JetBrains Mono</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- PALETTES -->
+            <section class="section-palettes">
+                <h2 class="section-title">Palettes</h2>
+                <div class="grid-palettes">
+                    <!-- une ligne -->
+                    <div class="color-E9027B box-color">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#E9027B</h3>
+                    </div>
+
+                    <div class="color-FB5600">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#FB5600</h3>
+                    </div>
+
+                    <div class="color-FDD201">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#FDD201</h3>
+                    </div>
+
+                    <div class="color-8DE902">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#8DE902</h3>
+                    </div>
+
+                    <div class="color-4EB518">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#4EB518</h3>
+                    </div>
+
+                    <div class="color-5294FF">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#5294FF</h3>
+                    </div>
+
+                    <div class="color-00AAE8">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#00AAE8</h3>
+                    </div>
+
+                    <div class="color-DCEBFE">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#DCEBFE</h3>
+                    </div>
+
+                    <div class="color-151009">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#151009</h3>
+                    </div>
+
+                    <div class="color-FCFAF8">
+                        <div class="square-color" aria-hidden="true"></div>
+                        <h3 class="title-color">#FCFAF8</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- UI ASSETS -->
+            <section class="section-UI">
+                <h2 class="section-title">UI Assets</h2>
+                <!-- Border -->
+                <div class="container-code">
+                    <h3 class="manrope">Border</h3>
+                    <div class="border-view">
+                        Bouton
+                    </div>
+                    <div class="border-view-two">
+                        Bouton
+                    </div>
+                    <pre class="code-ui">border: 3px solid #000;
+box-shadow: 4px 4px 0px #000;</pre>
+                </div>
+                <!-- Scrollbar -->
+                <div class="container-code">
+                    <h3 class="manrope">Scrollbar</h3>
+                    <pre class="code-ui">body {
+    --sb-track-color: #151009;
+    --sb-thumb-color: #8DE902;
+    --sb-size: 16px;
+}
+
+body::-webkit-scrollbar {
+    width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 1px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 1px;
+}</pre>
+                </div>
+                <!-- Background -->
+                <div class="container-code">
+                    <h3 class="manrope">Background</h3>
+                    <div class="background-view"></div>
+                    <pre class="code-ui">background-color: #DCEBFE;
+background-size: 70px 70px;
+background-image: 
+    linear-gradient(90deg, #80808033 1px, #0000 0),
+    linear-gradient(#80808033 1px, #0000 0);</pre>
+                </div>
+                <!-- Shadow Hover -->
+                <div class="container-code">
+                    <h3 class="manrope">Shadow Hover</h3>
+                    <div class="hover-view">Hover me</div>
+                    <pre class="code-ui">cursor: pointer;
+transition: transform 0.15s ease, box-shadow 0.15s ease;
+transform: translate(-2px, -2px);
+box-shadow: 6px 6px 0px #000;
+border: 3px solid #000;
+
+:hover {
+    transform: translate(0, 0);
+    box-shadow: 0px 0px 1px #000,
+    0 8px 22px 0 rgba(31, 38, 135, 0.1);
+}</pre>
+                </div>
+                <!-- Shadow Blur -->
+                <div class="container-code">
+                    <h3 class="manrope">Shadow Blur</h3>
+                    <div class="shadow-view"></div>
+                    <pre class="code-ui">background: rgba(220, 235, 254, 0.1);
+-webkit-backdrop-filter: blur(4px);
+backdrop-filter: blur(4px);
+border-radius: 16px;
+border: 0px solid rgba(255, 255, 255, 0.1);
+box-shadow: 0 8px 22px 0 rgba(31, 38, 135, 0.1);</pre>
+                </div>
+                <!-- Textured Hover-->
+                <div class="container-code">
+                    <h3 class="manrope">Textured Hover</h3>
+                    <div class="textured-view">Hover me</div>
+                    <pre class="code-ui">background-color: #4EB518;
+background-image: 
+    radial-gradient(#8DE902 1px, transparent 0);
+background-size: 10px 10px;
+border-radius: 8px;
+transition: all 0.15s ease;
+
+:hover {
+    transform: translate(-4px, -4px);
+    box-shadow: 6px 6px 0px #000;
+}</pre>
+                </div>
+                <!-- Outline -->
+                <div class="container-code">
+                    <h3 class="manrope">Outline</h3>
+                    <div class="outline-view"></div>
+                    <pre class="code-ui">outline: 3px solid #00C2FF;
+outline-offset: 3px;
+background-color: #00C2FF;
+border: 4px solid #000;
+border-radius: 4px;</pre>
+                </div>
+                <!-- Text Shadow -->
+                <div class="container-code">
+                    <h3 class="manrope">Text Shadow</h3>
+                    <div class="textShadow-view">Text shadow</div>
+                    <pre class="code-ui">text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.7);
+font-weight: 900;
+letter-spacing: 1px;
+text-transform: uppercase;</pre>
+                </div>
+                <!-- Stroke text -->
+                <div class="container-code">
+                    <h3 class="manrope">Stroke Text</h3>
+                    <div class="stroke-view">Stroke text</div>
+                    <pre class="code-ui">color: transparent;
+-webkit-text-stroke: 2px #000;
+font-weight: 800;
+letter-spacing: 2px;</pre>
+                </div>
+                <!-- Underline -->
+                <div class="container-code">
+                    <h3 class="manrope">Underline</h3>
+                    <div class="underline-view">UNDERLINE</div>
+                    <pre class="code-ui">text-decoration: none;
+border-bottom: 4px solid #000;
+padding-bottom: 2px;
+box-shadow: 0px 3px 0px #FF6811;</pre>
+                </div>
+                <!-- Offset Border -->
+                <div class="container-code">
+                    <h3 class="manrope">Offset Border</h3>
+                    <div class="offsetBorder-view"></div>
+                    <pre class="code-ui">border: 3px solid #000;
+box-shadow: 6px 6px 0px #FF6811;
+background-color: #FCFAF8;</pre>
+                </div>
+                <!-- Grid -->
+                <div class="container-code">
+                    <h3 class="manrope">Clear grid</h3>
+                    <div class="grid-view"></div>
+                    <pre class="code-ui">background-image:
+  linear-gradient(#000 2px, transparent 2px),
+  linear-gradient(90deg, #000 2px, transparent 2px);
+background-size: 40px 40px;
+background-color: #FFF;</pre>
+                </div> 
+                <!-- Brutalist Rotation -->
+                <div class="container-code">
+                    <h3 class="manrope">Brutalist Rotation</h3>
+                    <div class="rotation-view"></div>
+                    <pre class="code-ui">transform: rotate(-2deg);
+border: 3px solid #000;
+box-shadow: 6px 6px 0px #000;</pre>
+                </div>
+                <!-- Stabilo -->
+                <div class="container-code">
+                    <h3 class="manrope">Stabilo</h3>
+                    <div class="stabilo-view">STABILO</div>
+                    <pre class="code-ui">background: linear-gradient(transparent 60%, #FF6811 60%);
+font-weight: 700;</pre>
+                </div>
+                <!-- Offset Shadow -->
+                <div class="container-code">
+                    <h3 class="manrope">Offset Shadow</h3>
+                    <div class="offShadow-view">Offset Shadow</div>
+                    <pre class="code-ui">box-shadow: 8px 8px 0px #000;
+border: 3px solid #000;</pre>
+                </div>
+                <!-- Typographic-->
+                <div class="container-code">
+                    <h3 class="manrope">Typographic</h3>
+                    <div class="typographic-view">Typographic</div>
+                    <pre class="code-ui">padding: 20px;
+border: 4px solid #000;
+outline: 4px solid #FF6811;
+outline-offset: -10px;</pre>
+                </div> 
+                <!-- Industrial Label -->
+                <div class="container-code">
+                    <h3 class="manrope">Industrial Label</h3>
+                    <div class="label-view">Industrial</div>
+                    <pre class="code-ui">background-color: transparent;
+border: 3px solid #000;
+border-right: none;
+padding: 4px 12px;
+font-weight: 800;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-size: 2rem;
+line-height: 1;</pre>
+                </div> 
+            </section>
+            <!-- ANIMATION ASSETS -->
+            <section class="section-animation">
+                <h2 class="section-title">Animation Assets</h2>
+                <!-- Wiggle -->
+                <div class="container-code">
+                    <h3>Wiggle</h3>
+                    <div class="wiggle-animation animation">Hover me</div>
+                    <pre class="code-ui">@keyframes wiggle {
+  0% { transform: translate(0,0) rotate(0deg); }
+  20% { transform: translate(2px,-2px) rotate(1deg); }
+  40% { transform: translate(-2px,2px) rotate(-1deg); }
+  60% { transform: translate(1px,-1px) rotate(0.5deg); }
+  80% { transform: translate(-1px,1px) rotate(-0.5deg); }
+  100% { transform: translate(0,0) rotate(0deg); }
+}
+
+animation: wiggle 0.25s ease-in-out;</pre>
+                </div> 
+                <!-- jump -->
+                <div class="container-code">
+                    <h3>Jump</h3>
+                    <div class="jump-animation animation">Hover me</div>
+                    <pre class="code-ui">transition: transform 0.1s ease;
+transform: translateY(0);
+
+:hover {
+  transform: translateY(-6px);
+}</pre>
+                </div>
+                <!-- Snap -->
+                <div class="container-code">
+                    <h3>Snap</h3>
+                    <div class="snap-animation animation">Clic me</div>
+                    <pre class="code-ui">transition: transform 0.05s linear;
+
+:active {
+  transform: translate(4px,4px);
+}</pre>
+                </div>
+                <!-- shake -->
+                <div class="container-code">
+                    <h3>Shake</h3>
+                    <div class="shake-animation animation">Hover me</div>
+                    <pre class="code-ui">@keyframes brutal-shake {
+  0%, 100% { transform: translate(0,0); }
+  25% { transform: translate(4px,0); }
+  50% { transform: translate(-4px,0); }
+  75% { transform: translate(4px,0); }
+}
+
+animation: brutal-shake 0.15s linear;</pre>
+                </div>
+                <!-- Blink -->
+                <div class="container-code">
+                    <h3>Blink</h3>
+                    <div class="blink-animation animation">Hover me</div>
+                    <pre class="code-ui">@keyframes hard-blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+
+animation: hard-blink 0.6s steps(2, start) infinite;</pre>
+                </div> 
+                <!-- Glitch -->
+                <div class="container-code">
+                    <h3>Glitch</h3>
+                    <div class="glitch-animation animation">Hover me</div>
+                    <pre class="code-ui">@keyframes glitch {
+  0% { clip-path: inset(0 0 0 0); }
+  20% { clip-path: inset(10% 0 0 0); }
+  40% { clip-path: inset(0 0 20% 0); }
+  60% { clip-path: inset(5% 0 10% 0); }
+  80% { clip-path: inset(15% 0 5% 0); }
+  100% { clip-path: inset(0 0 0 0); }
+}
+
+animation: glitch 0.4s steps(2, end);</pre>
+                </div>
+                <!-- Cursor -->
+                <div class="container-code">
+                    <h3>Cursor</h3>
+                    <div class="cursor-animation animation">Hover me</div>
+                    <pre class="code-ui">cursor: 
+url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.svg), auto;</pre>
+                </div>
+                <!-- Crack -->
+                <div class="container-code">
+                    <h3>Crack</h3>
+                    <div class="crack-animation animation">Hover me</div>
+                    <pre class="code-ui">transition: all 0.1s cubic-bezier(.2,1.4,.4,1);
+
+:hover {
+    opacity: 0.8;
+    transform: rotate(1deg) translate(4px,4px);
+}</pre>
+                </div>
+                <!-- Press -->
+                <div class="container-code">
+                    <h3>Press</h3>
+                    <div class="press-animation animation">Clic me</div>
+                    <pre class="code-ui">transition: transform 0.05s linear;
+
+:active {
+  transform: scale(0.92) translate(2px,2px);
+}</pre>
+                </div>
+                <!-- Neon -->
+                <div class="container-code">
+                    <h3>Neon</h3>
+                    <div class="neon-animation animation">Hover me</div>
+                    <pre class="code-ui">@keyframes neon {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% { opacity: 1; }
+  20%, 24%, 55% { opacity: 0; }
+}
+
+animation: neon 1.2s infinite;</pre>
+                </div>
+            </section>
+            <!-- CREATIF ASSETS -->
+            <section class="section-animation">
+                <h2 class="section-title">Créatif Assets</h2>
+                <!-- Mechanical -->
+                <div class="container-code">
+                    <h3>Mechanical</h3>
+                    <div class="mechanical-crea animation">Hover me</div>
+                    <pre class="code-ui">@keyframes mech-step {
+  0% { transform: translate(0,0); }
+  33% { transform: translate(6px,0); }
+  66% { transform: translate(6px,6px); }
+  100% { transform: translate(0,6px); }
+}
+animation: mech-step 0.25s steps(2, end);</pre>
+                </div>
+                <!-- Overprint -->
+                <div class="container-code">
+                    <h3>Overprint</h3>
+                    <div class="overprint-crea animation">Hover me</div>
+                    <pre class="code-ui">background-image: repeating-linear-gradient(
+  to bottom,
+  rgba(0,0,0,0.1) 0px,
+  rgba(0,0,0,0.1) 1px,
+  transparent 1px,
+  transparent 3px
+);</pre>
+                </div>
+            </section>
+
+            <!-- INSPIRATIONS -->
+            <section class="section-inspirations">
+                <h2 class="section-title">Inspirations</h2>
+                <ul class="grid-inspirations">
+                    <!-- une ligne -->
+                    <li class="square-inspi">
+                        <img src="assets/neobrutalism_inspi/neo1.webp" loading="lazy" alt="Image webdesign Néo Brutaliste de Dribble">
+                    </li>
+
+                    <li class="square-inspi">
+                        <img src="assets/neobrutalism_inspi/neo2.webp" loading="lazy" alt="Image webdesign espace FAQ">
+                    </li>
+
+                    <li class="square-inspi">
+                        <img src="assets/neobrutalism_inspi/neo3.webp" loading="lazy" alt="Image landing page Starbucks de Dribble">
+                    </li>
+
+                    <li class="square-inspi">
+                        <img src="assets/neobrutalism_inspi/neo4.webp" loading="lazy" alt="Image webdesign coloré au style 'fait main'">
+                    </li>
+
+                    <li class="square-inspi">
+                        <img src="assets/neobrutalism_inspi/neo6.webp" loading="lazy" alt="Image webdesign épuré et coloré">
+                    </li>
+
+                    <li class="square-inspi">
+                        <img src="assets/neobrutalism_inspi/neo7.webp" loading="lazy" alt="Image hero section massive">
+                    </li>
+
+                    <li class="square-inspi">
+                        <img src="assets/neobrutalism_inspi/neo8.webp" loading="lazy" alt="Image flyers / poster">
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer class="footer" role="contentinfo">
+            <p class="footer-text">&copy; <script>document.write(new Date().getFullYear())</script> Léa Buonomo. Tous droits réservés.</p>
+        </footer>
+    </div>
+</body>
+</html>
