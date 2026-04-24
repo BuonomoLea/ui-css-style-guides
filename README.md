@@ -33,4 +33,4 @@ Chaque style possède sa propre page dédiée, sous le même modèle.
 - **Inspirations**
 
 ## Contribution
-Contributionss via pull request ou propositions de nouveaux styles sont les bienvenues.
+Contributions via pull request ou propositions de nouveaux styles sont les bienvenues.
