@@ -4,9 +4,9 @@ Collection de guides UI couvrant plusieurs styles graphiques du webdesign. Chaqu
 
 ## Sommaire
 - [Stack](#stack)
-- [Styles couvertss](#styles-couverts)
+- [Styles couverts](#styles-couverts)
 - [Contenu](#contenu)
-- [Contributing](#contributing)
+- [Contribution](#contribution)
 
 ## Stack
 - **HTML**
@@ -25,7 +25,7 @@ Le projet inclut actuellement :
 
 Chaque style possède sa propre page dédiée, sous le même modèle.
 
-## Contenu des guides
+## Contenu
 - **Fonts**
 - **Palettes**
 - **UI Assets CSS**
