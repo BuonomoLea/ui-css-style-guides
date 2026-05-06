@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://buonomolea.github.io/ui-css-style-guides/sitemap.xml
