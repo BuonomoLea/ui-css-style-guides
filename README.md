@@ -43,4 +43,4 @@ Contributions via pull request ou propositions de nouveaux styles sont les bienv
 
 Créé par Léa Buonomo
 
-Portfolio : https://buonomolea.github.io/BUONOMO_Lea_Portfolio_2025_FR/
+Portfolio : [https://buonomolea.github.io/BUONOMO_Lea_Portfolio_2025_FR/](https://buonomolea.github.io/portfolio-lea-buonomo/)
